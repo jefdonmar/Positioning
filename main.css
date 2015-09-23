@@ -1,20 +1,28 @@
+ul{
+  list-style: none;
+}
+
 .octodex{
  overflow: hidden;
  border-image: 2px solid black;
- border: 2px solid black;
+ /*border: 2px solid black;*/
 }
 
 .octocat{
   width: 300px;
-  
   display: inline-block;
+  margin-right: 66px;
 
 }
 
 img{
   max-width: 100%;
-  display: list item;
+  margin-left: auto; 
+  margin-right: auto;
   border: 1px solid grey;
+  display: inline-block;
+  box-sizing: boarder-box;
+
 }
 
 .authors img{
@@ -24,25 +32,18 @@ img{
 
 .image-footer{
   font-weight: bold;
-
-
 }
 
 .image-number{
   color: grey;
-
-
 }
-
 
 .image-caption{
   text-align: right;
   float: right;
-
 }
 
-
 .authors{
-
+  float: right;
 }
 
