@@ -1,5 +1,6 @@
 ul{
   list-style: none;
+
 }
 
 .octodex{
@@ -12,6 +13,7 @@ ul{
   display: inline-block;
   margin-right: 66px;
   border-bottom: 1px solid grey ;
+  padding-bottom: 5px
 
 }
 
@@ -23,6 +25,14 @@ img{
   display: inline-block;
   box-sizing: boarder-box;
 
+}
+
+span{
+  color: grey;
+}
+
+a{
+  color: black;
 }
 
 .authors img{
