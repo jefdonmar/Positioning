@@ -1,25 +1,43 @@
 .octodex{
-
+ overflow: hidden;
+ border-image: 2px solid black;
+ border: 2px solid black;
 }
 
 .octocat{
+  width: 300px;
+  
+  display: inline-block;
 
 }
 
-.image{
+img{
+  max-width: 100%;
+  display: list item;
+  border: 1px solid grey;
+}
 
+.authors img{
+  width: 25px;
+  float: right;
 }
 
 .image-footer{
+  font-weight: bold;
+
 
 }
 
 .image-number{
+  color: grey;
+
 
 }
 
 
 .image-caption{
+  text-align: right;
+  float: right;
 
 }
 
